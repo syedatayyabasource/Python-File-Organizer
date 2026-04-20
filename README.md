@@ -1,20 +1,28 @@
-# 📂 File Organizer: Python Automation Tool
+# 📂 Smart File Manager: Python Automation Tool
 
 ## Project Overview
-This is a personal automation project designed to solve the problem of cluttered directories. The script scans a target folder and automatically categorizes files into sub-folders based on their extensions (e.g., Images, Documents, PDFs).
+This is a professional-grade automation tool designed to eliminate directory clutter. Originally built as a command-line script, it has been upgraded with a **Modern Graphical User Interface (GUI)** for a seamless user experience. The tool intelligently categorizes files into sub-folders based on their extensions (e.g., `.pdf`, `.jpg`, `.txt`).
 
-## Key Features
-- [cite_start]**Smart Sorting:** Automatically detects file types and creates corresponding folders[cite: 41, 42].
-- [cite_start]**Robust File Handling:** Utilizes Python's `os` and `shutil` modules for secure file movement[cite: 48].
-- **User-Friendly CLI:** Simple command-line interface for easy interaction.
+## ✨ Key Features
+* **Modern UI:** A clean, dark-themed interface built with Tkinter for better usability.
+* **One-Click Organization:** No manual path typing required; simply browse and select your folder.
+* **Smart Sorting:** Automatically detects file extensions and creates organized directories.
+* **Safe File Handling:** Uses Python's robust `shutil` and `os` libraries for secure file movement.
 
-## 🛠️ Technical Implementation
-The script uses:
-- [cite_start]`os`: For directory scanning and path management[cite: 48].
-- [cite_start]`shutil`: For moving files across the filesystem[cite: 48].
-- [cite_start]`Python Scripting`: To automate repetitive manual tasks[cite: 3].
+## 🛠️ Technical Stack
+* **Language:** Python 3.x
+* **GUI Framework:** Tkinter
+* **Libraries:** * `os`: For directory scanning and path manipulation.
+    * `shutil`: For high-level file operations.
+    * `filedialog`: For native Windows folder selection.
 
-## How to Run
-1. Clone this repository.
-2. Open your terminal and run `python organizer.py`.
-3. Enter the full path of the folder you want to organize.
+## 🚀 How to Run
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/syedatayyabasource/Python-File-Organizer.git](https://github.com/syedatayyabasource/Python-File-Organizer.git)
+    ```
+2.  **Run the Application:**
+    ```bash
+    python organizer.py
+    ```
+3.  **Usage:** Click on **"CHOOSE FOLDER & CLEAN"**, select your folder, and it's done!
